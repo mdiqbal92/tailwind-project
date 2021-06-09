@@ -6,7 +6,7 @@ const Hire = () => {
       <section className="showcase">
         <div className="overlay flex flex-col items-center justify-center">
           <div className="flex flex-col w-9/12 lg:w-auto lg:flex-row">
-            <div className="bg-green-500 py-10 rounded lg:px-5 lg:pt-32">
+            <div className="bg-purple-500 py-10 rounded lg:px-5 lg:pt-32">
               <h2 className="text-white text-center text-5xl font-semibold mb-5 lg:text-7xl">
                 Hire a dev
               </h2>
@@ -18,7 +18,7 @@ const Hire = () => {
             <form
               name="Feedback form"
               method="post"
-              className="flex flex-col bg-green-200 py-5 px-10 rounded lg:w-7/12"
+              className="flex flex-col bg-purple-200 py-5 px-10 rounded lg:w-7/12"
             >
               <input
                 type="text"
@@ -26,7 +26,7 @@ const Hire = () => {
                 id="username"
                 placeholder="Enter your username"
                 required
-                className="py-2 px-4 mb-5 rounded border border-solid border-green-500 text-green-500 placeholder-green-500 font-semibold"
+                className="py-2 px-4 mb-5 rounded border border-solid border-purple-500 text-purple-500 placeholder-purple-500 font-semibold"
               />
               <input
                 type="email"
@@ -34,7 +34,7 @@ const Hire = () => {
                 id="email"
                 placeholder="Enter your email"
                 required
-                className="py-2 px-4 mb-5 rounded border border-solid border-green-500 text-green-500 placeholder-green-500 font-semibold"
+                className="py-2 px-4 mb-5 rounded border border-solid border-purple-500 text-purple-500 placeholder-purple-500 font-semibold"
               />
               <textarea
                 name="textarea"
@@ -43,12 +43,12 @@ const Hire = () => {
                 rows="10"
                 placeholder="Enter message"
                 required
-                className="py-2 px-4 mb-5 rounded border border-solid border-green-500 text-green-500 placeholder-green-500 font-semibold"
+                className="py-2 px-4 mb-5 rounded border border-solid border-purple-500 text-purple-500 placeholder-purple-500 font-semibold"
               ></textarea>
               <input
                 type="submit"
                 value="Submit"
-                className="bg-green-500 text-white font-bold tracking-wider py-2 rounded cursor-pointer transition-all hover:bg-green-800"
+                className="bg-purple-500 text-white font-bold tracking-wider py-2 rounded cursor-pointer transition-all hover:bg-purple-800"
               />
             </form>
           </div>
