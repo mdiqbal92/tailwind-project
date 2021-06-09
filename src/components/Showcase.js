@@ -7,7 +7,7 @@ const Showcase = () => {
       <section className="showcase">
         <div className="overlay flex flex-col items-center justify-center text-white px-5">
           <h1 className="text-5xl font-bold text-right mb-10 lg:text-center lg:text-7xl lg:px-56">
-            Hire me to<span className="text-green-500"> Develop </span>
+            Hire me to<span className="text-purple-500"> Develop </span>
             your site
           </h1>
 
